@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(237, 237, 217);
+}
+
+.nav{
+    position: relative;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 45px;
+    color: black;
+}
+
+.deb{
+    position: absolute;
+    font-size: 20px;
+    font-family: arial;
+    padding-top: 15px;
+}
+
+.lien{
+    position: absolute;
+    right: 0;
+    padding-right: 360px;
+    padding-left: 200px;
+    display: flex;
+    align-content: center;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+.lien a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+}
+
+.lien a:hover{
+    color: red;
+    transition: .4s;
+    cursor: pointer;
+    font-weight: 540;
+}
+
+.fin button{
+    border: 3px solid rgb(166, 166, 166);
+    background-color: transparent;
+    width: 120px;
+    height: 60px;
+    border-radius: 25px;
+    transition: .4s;
+}
+
+.fin button:hover{
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(0.9);
+    background-color: white;
+}
+
+.fin a{
+    text-decoration: none;
+    color: black;
+}
+
+.fin svg{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.corps{
+    position: relative;
+    padding-top: 150px;
+}
+
+.gauche{
+    position: absolute;
+    float: left;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+.gauche .texte h1{
+    font-family: arial;
+    font-size: 50px;
+    font-weight: 200;
+    padding-right: 80%;
+    padding-bottom: 25px;
+}
+
+.gauche .texte p{
+    padding-top: 5px;
+    font-family: arial;
+    font-size: 17px;
+    color: rgb(170, 166, 161);
+    padding-right: 78%;
+    padding-bottom: 370px;
+}
+
+.gauche .vid{
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.gauche .vid a{
+    color: black;
+    font-family: arial;
+}
+
+.gauche .vid a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.gauche .vid svg{
+    padding-left: 55px;
+}
+
+.gauche .nocti{
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.gauche .nocti .noc{
+    position: relative;
+    display: inline-block;
+}
+
+.gauche .nocti .noc img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.gauche .nocti .noc span{
+    position: absolute;
+    top: 8px;
+    right: -9px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-family: arial;
+}
+
+.gauche .nocti .hel{
+    padding-top: 40px;
+    font-family: arial;
+}
+
+.gauche .nocti .hel p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.gauche .nocti .hel a{
+    color: rgb(170, 166, 161);
+    font-size: 15px;
+}
+
+.centre{
+    position: absolute;
+    float: center;
+    left: 525px;
+    display: block;
+}
+
+.centre .pht{
+    position: relative;
+    display: inline-block;
+}
+
+.centre .pht img{
+    padding-top: 25px;
+    width: 530px;
+    height: 645px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+}
+
+.centre .pht .A{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    padding: 10px 55px;
+    border-radius: 50px;
+    background-color: rgb(140, 0, 255);
+    color: white;
+    font-family: arial;
+}
+
+.A span{
+    padding: 0;
+}
+
+.centre .pht .B{
+    position: absolute;
+    top: 400px;
+    left: -120px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+}
+
+.centre .pht .C{
+    position: absolute;
+    top: 560px;
+    left: 425px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+}
+
+.droit{
+    position: absolute;
+    float: right;
+    left: 1190px;
+    font-family: arial;
+    padding-top: 310px;
+}
+
+.droit .ordi{
+    padding-bottom: 50px;
+}
+
+.droit .ordi svg{
+    width: 35px;
+    height: 35px;
+}
+
+.droit .ordi h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.droit .ordi p{
+    color: rgb(170, 166, 161);
+    padding-right: 5%;
+}
+
+.droit .outil{
+    padding-bottom: 50px;
+}
+
+.droit .outil svg{
+    width: 35px;
+    height: 35px;
+}
+
+.droit .outil h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.droit .outil p{
+    color: rgb(170, 166, 161);
+    padding-right: 5%;
+}
+
+
+.droit .calend{
+    padding-bottom: 40px;
+}
+
+.droit .calend svg{
+    width: 30px;
+    height: 30px;
+}
+
+.droit .calend h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.droit .calend p{
+    color: rgb(170, 166, 161);
+    padding-right: 5%;
+}
